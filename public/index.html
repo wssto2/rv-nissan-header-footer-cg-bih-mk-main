@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="rna-header"></div>
+    <!-- built files will be auto injected -->
+
+    <div aria-required="true" class="form-group required">
+        <label for="ime">Ime</label>
+        <div class="form-group-container">
+            <input id="ime" name="ime" required="required" type="text" placeholder=" " class="">
+            <label for="ime">Ime</label>
+        </div>
+    </div>
+
+
+    <div id="rna-footer"></div>
+    <script>
+        window.HEADER_FOOTER_SETTINGS = {
+            apiUri: "https://rna.sto2.hr/api/stock-pages-navigation/structure/9cff472b-d41c-447f-8a06-6975e5ebce17"
+        }
+    </script>
+  </body>
+</html>
