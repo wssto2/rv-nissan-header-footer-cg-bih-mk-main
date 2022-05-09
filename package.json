@@ -1,15 +1,15 @@
 {
-  "name": "@wssto2/rv-nissan-header-footer",
-  "version": "1.1.8",
+  "name": "@wssto2/rv-nissan-header-footer-cg-bih-mk-main",
+  "version": "1.0.0",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wssto2/rv-nissan-header-footer.git"
+    "url": "git+https://github.com/wssto2/rv-nissan-header-footer-cg-bih-mk-main.git"
   },
   "bugs": {
-    "url": "https://github.com/wssto2/rv-nissan-header-footer/issues"
+    "url": "https://github.com/wssto2/rv-nissan-header-footer-cg-bih-mk-main/issues"
   },
-  "homepage": "https://github.com/wssto2/rv-nissan-header-footer",
+  "homepage": "https://github.com/wssto2/rv-nissan-header-footer-cg-bih-mk-main",
   "publishConfig": {
     "access": "public"
   },
